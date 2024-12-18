@@ -1,0 +1,10 @@
+.page {
+  background: linear-gradient(to top, #e5f3fd 60%, #add8e6 100%);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

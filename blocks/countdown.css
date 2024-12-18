@@ -1,0 +1,28 @@
+.countdown__clock {
+  margin: auto 400px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.countdown__span {
+  display: block;
+  font-size: 96px;
+  color: #f41b4b;
+}
+
+.countdown__seperator {
+  margin: 0 10px;
+  font-size: 96px;
+  line-height: 1;
+  color: #f41b4b;
+}
+
+.countdown__space {
+  margin-right: 80px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jacob Cozens" />
+    <meta name="description" content="Christmas Countdown Website" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Christmas, Countdown, Snow"
+    />
+    <link rel="stylesheet" href="pages/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="main.js" defer></script>
+    <title>Christmas Countdown!</title>
+  </head>
+  <body>
+    <div class="page">
+      <div id="snow-container" class="snow"></div>
+      <header class="header">
+        <nav class="nav">
+          <button class="nav__link" id="myButton">Jacob Cozens</button>
+        </nav>
+      </header>
+      <main class="content">
+        <h1 class="content__headline" id="headline">Countdown to Christmas!</h1>
+        <section id="countdown" class="countdown">
+          <ul class="countdown__clock">
+            <li class="countdown__space">
+              <span class="countdown__span" id="days">00</span>days
+            </li>
+            <li><span class="countdown__span" id="hours">00</span>hours</li>
+            <li class="countdown__seperator">:</li>
+            <li><span class="countdown__span" id="minutes">00</span>minutes</li>
+            <li class="countdown__seperator">:</li>
+            <li><span class="countdown__span" id="seconds">00</span>seconds</li>
+          </ul>
+        </section>
+        <section class="trees">
+          <div class="trees__left">
+            <img
+              src="./images/xmastree.png"
+              alt="Christmas Tree"
+              class="trees__image"
+            />
+          </div>
+          <div class="trees__right">
+            <img
+              src="./images/xmastree.png"
+              alt="Christmas Tree"
+              class="trees__image"
+            />
+          </div>
+        </section>
+        <section class="music">
+          <button class="music__button" id="play-button">
+            Click here to set the mood
+          </button>
+          <audio id="audio" src="christmas.mp3" preload="auto"></audio>
+        </section>
+      </main>
+      <footer class="footer">
+        <button class="footer__link" id="myButton2">
+          <ion-icon name="logo-github"></ion-icon>
+        </button>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+      var sf = new Snowflakes({
+        color: "#fff",
+      });
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

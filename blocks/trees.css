@@ -1,0 +1,17 @@
+.trees {
+  display: flex;
+  margin-top: -120px;
+}
+
+.trees__image {
+  width: 300px;
+  height: 300px;
+}
+
+.trees__left {
+  margin: 0 800px 0 0;
+}
+
+.trees__right {
+  right: -10px;
+}

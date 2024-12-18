@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer__link {
+  color: inherit;
+  font-size: 32px;
+  border-style: none;
+  background-color: transparent;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
