@@ -4,7 +4,7 @@ var minutesEl = document.getElementById("minutes");
 var secondsEl = document.getElementById("seconds");
 
 function countdownTimer() {
-  const countDownDate = new Date("12/25/2024").getTime();
+  const countDownDate = new Date("12/25/2025").getTime();
 
   const second = 1000;
   const minute = second * 60;
